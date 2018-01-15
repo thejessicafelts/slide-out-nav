@@ -1,3 +1,7 @@
+/* =============================================================================
+  Open/Close Slide-Out Navigation Menu, Display Corresponding Icons
+============================================================================= */
+
 let openNav = document.getElementById('open');
 let closeNav = document.getElementById('close');
 let navScreen = document.getElementById('nav-screen');
@@ -15,3 +19,9 @@ closeNav.addEventListener('click', function(){
   navScreen.classList.remove('active');
   openNav.classList.add('active');
 });
+
+/* =============================================================================
+  Check for Sub-Menus on Hover, and Display Accordingly
+============================================================================= */
+
+// Check Navigation li's for children, and show as necessary
