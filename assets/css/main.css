@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url('../img/busytoronto.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+a,
+a:active,
+a:focus,
+a:hover,
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+span.slider-icon a svg {
+  margin: 13px 0 0 10px;
+}
+
+span.slider-icon a svg {
+  display: none;
+}
+
+span.slider-icon a svg.active {
+  display: inline-block;
+  position: relative;
+  z-index: 999;
+}
+
+#nav-screen {
+  display: none;
+}
+
+#nav-screen.active,
+#nav-screen.active ul li .second-pane,
+#nav-screen.active ul li .second-pane ul li .third-pane {
+  color: white;
+  display: block;
+  height: 100vh;
+  padding: 75px 15px;
+  position: absolute;
+  top: 0;
+  width: calc(100vw / 3);
+  z-index: 998;
+}
+
+#nav-screen.active {
+  background: rgba(0,0,0,.90);
+}
+
+#nav-screen.active ul li .second-pane,
+#nav-screen.active ul li .second-pane ul li .third-pane {
+  left: calc(100vw / 3);
+}
+
+#nav-screen.active ul li .second-pane {
+  background: rgba(50,50,50,.90);
+}
+
+#nav-screen.active ul li .second-pane ul li .third-pane {
+  background: rgba(100,100,100,.90);
+}
