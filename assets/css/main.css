@@ -47,11 +47,16 @@ span.slider-icon a svg.active {
   color: white;
   display: block;
   height: 100vh;
-  padding: 75px 15px;
+  padding: 75px 0px;
   position: absolute;
   top: 0;
   width: calc(100vw / 3);
   z-index: 998;
+}
+
+#nav-screen.active ul li {
+  cursor: pointer;
+  padding: 15px;
 }
 
 #nav-screen.active {
@@ -60,6 +65,12 @@ span.slider-icon a svg.active {
 
 #nav-screen.active ul li .second-pane,
 #nav-screen.active ul li .second-pane ul li .third-pane {
+  display: none;
+}
+
+#nav-screen.active ul li:hover .second-pane,
+#nav-screen.active ul li:hover .second-pane ul li:hover .third-pane {
+  display:block;
   left: calc(100vw / 3);
 }
 
