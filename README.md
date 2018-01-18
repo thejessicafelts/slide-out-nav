@@ -1,5 +1,7 @@
-# Slide-Out Navigation
+# Slide-Out Navigation (Desktop Only)
 A Slide Out Navigation made in HTML and CSS
+
+**View Project on CodePen:**  [https://codepen.io/thejessicafelts/project/details/ABNVpk/](https://codepen.io/thejessicafelts/project/details/ABNVpk/)
 
 **Latest Screenshot:**
 
